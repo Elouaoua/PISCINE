@@ -6,7 +6,7 @@
 /*   By: meel-oua <meel-oua@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/18 15:09:27 by meel-oua          #+#    #+#             */
-/*   Updated: 2023/11/18 15:15:12 by meel-oua         ###   ########.fr       */
+/*   Updated: 2023/11/18 16:17:07 by meel-oua         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	ft_putnbr(int nb)
 		ft_putchar('-');
 		nb = -nb;
 	}
-	if (nb > 10)
+	if (nb >= 10)
 	{
 		ft_putnbr(nb / 10);
 		ft_putnbr(nb % 10);
